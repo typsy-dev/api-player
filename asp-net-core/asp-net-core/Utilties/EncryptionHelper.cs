@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace asp_net_core.Utilties
+namespace Typsy.Demo.Player.Utilties
 {
     public class EncryptionHelper
     {

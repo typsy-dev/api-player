@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace asp_net_core
+namespace Typsy.Demo.Player
 {
     public class Startup
     {

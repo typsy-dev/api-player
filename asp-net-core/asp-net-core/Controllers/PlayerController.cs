@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using asp_net_core.Models;
-using asp_net_core.Services;
-using asp_net_core.Utilties;
+using Typsy.Demo.Player.Models;
+using Typsy.Demo.Player.Services;
+using Typsy.Demo.Player.Utilties;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace asp_net_core.Controllers
+namespace Typsy.Demo.Player.Controllers
 {
     public class PlayerController : Controller
     {

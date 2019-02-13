@@ -6,6 +6,8 @@ The Typsy videos/lessons will not play until your domain has been added to a whi
 
 # Authenticating
 In the code samples you will need to enter the values for the following items.
+```
 TYPSY_ACCOUNT_ID = "INSERT THE ACCOUNT ID";
 TYPSY_SOURCE = "INSERT THE SOURCE NAME";
 TYPSY_KEY = "INSERT THE SOURCE NAME";
+```

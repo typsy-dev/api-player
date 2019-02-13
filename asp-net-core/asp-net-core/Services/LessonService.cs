@@ -1,11 +1,11 @@
-﻿using asp_net_core.Models;
+﻿using Typsy.Demo.Player.Models;
 using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace asp_net_core.Services
+namespace Typsy.Demo.Player.Services
 {
     public class LessonService
     {

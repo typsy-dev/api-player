@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using asp_net_core.Models;
+using Typsy.Demo.Player.Models;
 
-namespace asp_net_core.Controllers
+namespace Typsy.Demo.Player.Controllers
 {
     public class HomeController : Controller
     {

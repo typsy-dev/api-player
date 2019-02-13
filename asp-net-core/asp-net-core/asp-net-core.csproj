@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>Typsy.Player.Demo</RootNamespace>
+    <RootNamespace>Typsy.Demo.Player</RootNamespace>
     <AssemblyName>Typsy.Demo.Player</AssemblyName>
   </PropertyGroup>
 

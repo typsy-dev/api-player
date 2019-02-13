@@ -13,7 +13,7 @@ namespace asp_net_core.Controllers
     public class PlayerController : Controller
     {
         //private const string TYPSY_ACCOUNT_ID = "INSERT TYPSY ACCOUNT ID";
-        private const string TYPSY_ACCOUNT_ID = "123";
+        private const string TYPSY_ACCOUNT_ID = "INSERT THE ACCOUNT ID";
         private const string TYPSY_SOURCE = "INSERT THE SOURCE NAME";
         private const string TYPSY_KEY = "INSERT THE SOURCE NAME";
 

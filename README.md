@@ -1,4 +1,4 @@
-# Player
+# API Player
 Sample code for rendering Typsy Lessons returned from the API
 
 # Notes

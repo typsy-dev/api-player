@@ -78,6 +78,7 @@
             $.ajax({
                 url: url + "/lms/lesson-status",
                 type: "PUT",
+                async: false,
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify(info),
                 headers:

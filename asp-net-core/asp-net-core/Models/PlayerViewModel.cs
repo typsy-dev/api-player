@@ -26,5 +26,16 @@ namespace Typsy.Demo.Player.Models
         public string Firstname { get; set; }
 
         public string Lastname { get; set; }
+
+        /// <summary>
+        /// A unique Id per view that can be correlated to any issue associated with saving the lesson watched
+        /// </summary>
+        public string ReferenceId
+        {
+            get
+            {
+                return System.Guid.NewGuid().ToString("N");
+            }
+        }
     }
 }

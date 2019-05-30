@@ -1,7 +1,7 @@
 ﻿@model PlayerViewModel
 
 @{
-    ViewData["Title"] = "Demo";
+    ViewData["Title"] = "Typsy Lesson";
 }
 
 <div class="alert alert-danger d-none" role="alert" id="alert-error">
@@ -37,6 +37,7 @@
         var typsySource = '@Model.Source';
         var typsyAccountId = '@Model.AccountId';
         var referrer = '@Model.Referrer';
+        var referenceId = '@Model.ReferenceId';
 
         window._wq = window._wq || [];
         _wq.push({
@@ -72,7 +73,8 @@
                 "lastName": lastName,
                 "cursorPosition": position,
                 "timestamp": timestamp,
-                "referrer": referrer
+                "referrer": referrer,
+                "ReferenceId": referenceId
             };
 
             $.ajax({
@@ -95,9 +97,13 @@
                 console.log(xhr.responseText);
                 console.log(textStatus);
                 $("#alert-error").removeClass("d-none");
-                $("#alert-error").text('There has been an error connecting to Typsy to record the status of your lesson: ' + xhr.responseText);
+                $("#alert-error").text('There has been an error connecting to Typsy to record the status of your lesson (reference: ' + referenceId + ' : ' + xhr.responseText + ')');
             });
         };
     </script>
 
-    <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+    <div class="mt-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>

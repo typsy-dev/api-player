@@ -14,7 +14,7 @@ namespace Typsy.Demo.Player.Controllers
     {
         private const string TYPSY_ACCOUNT_ID = "INSERT THE ACCOUNT ID";
         private const string TYPSY_SOURCE = "INSERT THE SOURCE NAME";
-        private const string TYPSY_KEY = "INSERT THE SOURCE NAME";
+        private const string TYPSY_KEY = "INSERT THE KEY NAME";
 
         public ActionResult Index()
         {
